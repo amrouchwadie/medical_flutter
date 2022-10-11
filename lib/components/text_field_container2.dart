@@ -1,0 +1,25 @@
+import 'package:flutter/material.dart';
+import 'package:medicament_project/constants.dart';
+
+class TextFieldContainer2 extends StatelessWidget {
+  final Widget child;
+  const TextFieldContainer2({
+    Key key,
+    this.child,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
+    return Container(
+      margin: EdgeInsets.symmetric(vertical: 10),
+      padding: EdgeInsets.symmetric(horizontal: 20, vertical: 5),
+      width: size.width * 0.8,
+      decoration: BoxDecoration(
+        color: Colors.blue.shade50,
+        borderRadius: BorderRadius.circular(29),
+      ),
+      child: child,
+    );
+  }
+}

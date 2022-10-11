@@ -1,0 +1,6 @@
+const apiKey =
+    'pk_test_51J4UdNGZAofccezXTs7EbXBAZV28Fl0GQVAT9VL8yN63zVaRDYsi9gX3a18aoSjN3qe5lknjY0Y9dL4gmEhGHRCp00vBpZ3nxp';
+const secretKey =
+    'sk_test_51J4UdNGZAofccezXmUJfkIZ26cq2D7xpbXmx182vOWWXYZYAvBjYuhjut89dklxbqpEHCEt91zlEUDQZgY2ynmM000PdMVVse8';
+const nikesPriceId =
+    'rk_test_51J4UdNGZAofccezXLqw2W0fflyr4piWkFFeatZybWejs18tJC6xHRSYoQjM9wXbvLfRPuxkh5adLj3tvnEn1XtI0006CSHu1ri';
